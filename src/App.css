@@ -1,0 +1,121 @@
+#root {
+  max-width: 1280px;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+
+
+.header{
+  width: 100vw;
+  padding: 15px;
+  background-color: rgb(54, 35, 21);
+  margin: 0%;
+}
+
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0%;
+}
+.navItem{
+  color: rgb(155, 129, 110);
+  margin: 0%;
+}
+
+.navItem:hover{
+  color: rgb(221, 204, 191);
+}
+.hei{
+  height: 90vh;
+}
+.title{
+  color:rgb(252, 250, 249);
+  background-color: rgb(114, 89, 72);
+  padding: 15px;
+  text-align: left;
+  margin-left: 1rem;
+  width:fit-content;
+  opacity: 0.8;
+  font-family: "Dancing Script", cursive;
+
+}
+.description{
+  color:rgb(246, 243, 241);
+  background-color: rgb(135, 108, 89);
+  padding: 10px;
+  text-align: left;
+  margin-left: 1rem;
+  width:fit-content;
+  opacity: 0.8;
+  font-family: "Dancing Script", cursive;
+
+}
+.aboutSection{
+  height: 90vh;
+  background-image: url("https://wallpapercave.com/wp/wp5586623.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:auto;
+}
+.aboutSection h1{
+  height: 10%;
+  margin-top: auto;
+  padding-left: 2rem;
+  padding-top: 6%;
+  text-align: left;
+  width: 100vw;
+}
+.aboutSection p{
+  height: 5%;
+  padding-left: 2rem;
+  padding-top: 6%;
+  text-align: left;
+  font-size: larger;
+  width:60%;
+}
+
+.srcImage{
+  width: 10vw;
+  height: 25vh;
+
+  margin-top: 20px;
+}
+
+.coffeeMenu{
+  overflow-x: hidden;
+  background-color: rgb(221, 183, 156);
+  padding-top: 1rem;
+}
+.MenuList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.MenuList li{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  border:0.2px solid black;
+  width:28vw;
+  margin-top: 5vh;
+  padding : 20px;
+}
+.btn-section button{
+  background-color: bisque;
+}
+.detailsSection button:hover{
+  background-color: rgb(90, 52, 21);
+  border: solid rgb(90, 52, 21);
+}
+.menuBtn{
+  width:10vw;
+}
+.orderSection{
+  padding-top: 1rem;
+  height: 91vh;
+  background-image: url("https://wallpapercave.com/wp/wp10687149.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
