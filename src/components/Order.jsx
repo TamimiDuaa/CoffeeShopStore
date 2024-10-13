@@ -18,12 +18,12 @@ const Order = () => {
 
     return (
         <div className='orderSection'>
-            <h1>Your Orders</h1>
+            <h2>Your Orders</h2>
             <form className="orderForm" onSubmit={handleSubmit}>
                 <input type="text" ref={nameRef} placeholder="Your Name" required />
                 <button type="submit">Place Order</button>
             </form>
-            <ul>
+            <ul className='orderList'>
                 {state.orders.map((order) => (
                     <li key={order.id}>
                         {order.name} - ${order.price} <button onClick={() => removeOrder(order)}>Remove</button>
