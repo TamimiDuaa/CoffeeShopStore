@@ -119,3 +119,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.carousel-item{
+
+  transition: all 3s ease-in;
+}
